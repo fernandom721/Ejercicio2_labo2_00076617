@@ -1,18 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_column="3"
+    android:layout_row="3">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_width="@dimen/image_dimension"
+        android:layout_height="@dimen/image_dimension"
+        android:src="@drawable/donko01"/>
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_width="@dimen/image_dimension"
+        android:layout_height="@dimen/image_dimension"
+        android:src="@drawable/donko02"/>
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:layout_width="@dimen/image_dimension"
+        android:layout_height="@dimen/image_dimension"
+        android:src="@drawable/donko01"/>
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_width="@dimen/image_dimension"
+        android:layout_height="@dimen/image_dimension"
+        android:src="@drawable/kirbi01"/>
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_width="@dimen/image_dimension"
+        android:layout_height="@dimen/image_dimension"
+        android:src="@drawable/kirbi02"/>
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:layout_width="@dimen/image_dimension"
+        android:layout_height="@dimen/image_dimension"
+        android:src="@drawable/kirbi01"/>
+    <ImageView
+        android:id="@+id/img7"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:layout_width="@dimen/image_dimension"
+        android:layout_height="@dimen/image_dimension"
+        android:src="@drawable/link01"/>
+    <ImageView
+        android:id="@+id/img8"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:layout_width="@dimen/image_dimension"
+        android:layout_height="@dimen/image_dimension"
+        android:src="@drawable/link02"/>
+    <ImageView
+        android:id="@+id/img9"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:layout_width="@dimen/image_dimension"
+        android:layout_height="@dimen/image_dimension"
+        android:src="@drawable/link01"/>
 
-</android.support.constraint.ConstraintLayout>
+</GridLayout>
